@@ -106,7 +106,7 @@ def book_slot(request : BookSlot, user : str = Depends(get_current_user)):
             'available' : False
         }
         slot_list.append(slot_dict)
-        return 'slot booked successfully'
+        return 'slot booked successfully!'
 
 
 
